@@ -3093,6 +3093,7 @@ class appDevDebugProjectContainer extends Container
         $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views', 'Twig');
         $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/Resources/views', 'Swiftmailer');
         $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views', 'Doctrine');
+        $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/src/Acme/HelloBundle/Resources/views', 'AcmeHello');
         $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/src/Acme/DemoBundle/Resources/views', 'AcmeDemo');
         $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views', 'WebProfiler');
         $instance->addPath('/Users/hsng/Documents/sites/php-symfony2-myProject1/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views', 'SensioDistribution');
@@ -3597,6 +3598,7 @@ class appDevDebugProjectContainer extends Container
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
                 'AcmeHelloBundle' => 'Acme\\HelloBundle\\AcmeHelloBundle',
+                'AcmeTestBundle' => 'Acme\\TestBundle\\AcmeTestBundle',
                 'AcmeDemoBundle' => 'Acme\\DemoBundle\\AcmeDemoBundle',
                 'WebProfilerBundle' => 'Symfony\\Bundle\\WebProfilerBundle\\WebProfilerBundle',
                 'SensioDistributionBundle' => 'Sensio\\Bundle\\DistributionBundle\\SensioDistributionBundle',
