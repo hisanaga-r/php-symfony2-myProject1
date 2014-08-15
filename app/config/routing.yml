@@ -1,0 +1,4 @@
+# app/config/routing.yml
+AcmeHelloBundle:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+    prefix:   /
